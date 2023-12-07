@@ -14,19 +14,19 @@ Here's a high-level overview of how OAuth 2.0 works:
 #### OAuth 2.0 Authorization Grant Types:
 OAuth 2.0 defines several grant types for different use cases. The common grant types include:
 
-##### Authorization Code Grant:
+##### 1. Authorization Code Grant:
 
 * Used by web applications.
 * Involves a redirect to the Authorization Server, where the user logs in and grants access. An authorization code is then exchanged for an access token.
-##### Implicit Grant:
+##### 2. Implicit Grant:
 
 * Used by JavaScript or mobile applications.
 * Access token is returned immediately after the user grants access, without an additional authorization code exchange.
-##### Client Credentials Grant:
+##### 3. Client Credentials Grant:
 
 * Used by confidential clients (e.g., server-to-server communication).
 * The client authenticates directly with the Authorization Server using its client credentials to obtain an access token.
-##### Resource Owner Password Credentials Grant:
+##### 4. Resource Owner Password Credentials Grant:
 
 * Used when the user trusts the client application with their credentials.
 * The client directly obtains the user's username and password to request an access token
